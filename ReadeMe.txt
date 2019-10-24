@@ -1,0 +1,18 @@
+#This program gives output as requested in https://docs.google.com/document/d/13dIcUiZ6yrz0hVo-iSvW43MR9VPzDG-O8uHrlUOYRhc/edit#.
+
+# Instructions to run program:
+1. Install dotnet utility from Microsoft.
+2. Complile, run and publish code using commands 
+dotnet restore 
+dotnet build
+dotnet build -c release
+dotnet run
+dotnet publish-c release
+
+Run published code(you need to copy contents of "\CapTableByDate\bin\release\publish" to "published" folder in given structure.)
+3. Open powershell prompt in this directory and then type commands " .\published\CapTableByDate.exe CapData.csv".
+
+4. Command should look like below in PowerShell window.
+~<path to this directory> > .\published\CapTableByDate.exe CapData.csv
+
+#I believe this code can be extensible to run and get capitalization at certain date. We need to pass date as second argument and then filter records before that date.

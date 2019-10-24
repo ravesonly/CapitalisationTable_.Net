@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CapTableByDate": {
+      "commandName": "Project",
+      "commandLineArgs": "CapData.csv"
+    }
+  }
+}
